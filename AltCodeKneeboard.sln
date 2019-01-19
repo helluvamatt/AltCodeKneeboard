@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltCodeKneeboard", "AltCodeKneeboard\AltCodeKneeboard.csproj", "{21195D50-FF81-43D5-847A-F6EE6B25CB64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyotek.Windows.Forms.ColorPicker", "Cyotek.Windows.Forms.ColorPicker\Cyotek.Windows.Forms.ColorPicker\Cyotek.Windows.Forms.ColorPicker.csproj", "{FB2A5786-CD2E-42CE-BC5D-0FCE90034221}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{21195D50-FF81-43D5-847A-F6EE6B25CB64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21195D50-FF81-43D5-847A-F6EE6B25CB64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21195D50-FF81-43D5-847A-F6EE6B25CB64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB2A5786-CD2E-42CE-BC5D-0FCE90034221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB2A5786-CD2E-42CE-BC5D-0FCE90034221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB2A5786-CD2E-42CE-BC5D-0FCE90034221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB2A5786-CD2E-42CE-BC5D-0FCE90034221}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

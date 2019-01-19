@@ -8,10 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AltCodeKneeboard.Properties
-{
-
-
+namespace AltCodeKneeboard.Properties {
+    using System;
+    
+    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -19,52 +19,1165 @@ namespace AltCodeKneeboard.Properties
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources
-    {
-
+    internal class Resources {
+        
         private static global::System.Resources.ResourceManager resourceMan;
-
+        
         private static global::System.Globalization.CultureInfo resourceCulture;
-
+        
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources()
-        {
+        internal Resources() {
         }
-
+        
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager
-        {
-            get
-            {
-                if ((resourceMan == null))
-                {
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("AltCodeKneeboard.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
             }
         }
-
+        
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture
-        {
-            get
-            {
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
                 return resourceCulture;
             }
-            set
-            {
+            set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _new {
+            get {
+                object obj = ResourceManager.GetObject("_new", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to All - By Description.
+        /// </summary>
+        internal static string AllSortedByDescription {
+            get {
+                return ResourceManager.GetString("AllSortedByDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to All - By Unicode.
+        /// </summary>
+        internal static string AllSortedByUnicode {
+            get {
+                return ResourceManager.GetString("AllSortedByUnicode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Alt.
+        /// </summary>
+        internal static string Alt {
+            get {
+                return ResourceManager.GetString("Alt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Appearance.
+        /// </summary>
+        internal static string Appearance {
+            get {
+                return ResourceManager.GetString("Appearance", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon appicon {
+            get {
+                object obj = ResourceManager.GetObject("appicon", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Alt Code Kneeboard.
+        /// </summary>
+        internal static string AppTitle {
+            get {
+                return ResourceManager.GetString("AppTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Are you sure?.
+        /// </summary>
+        internal static string AreYouSure {
+            get {
+                return ResourceManager.GetString("AreYouSure", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Alphabetically.
+        /// </summary>
+        internal static string ByAlpha {
+            get {
+                return ResourceManager.GetString("ByAlpha", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Favorites Only.
+        /// </summary>
+        internal static string ByFavoritesOnly {
+            get {
+                return ResourceManager.GetString("ByFavoritesOnly", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to By Group.
+        /// </summary>
+        internal static string ByGroup {
+            get {
+                return ResourceManager.GetString("ByGroup", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to By Unicode.
+        /// </summary>
+        internal static string ByUnicode {
+            get {
+                return ResourceManager.GetString("ByUnicode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap category {
+            get {
+                object obj = ResourceManager.GetObject("category", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Default.
+        /// </summary>
+        internal static string Category_Style_Default {
+            get {
+                return ResourceManager.GetString("Category_Style_Default", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Header.
+        /// </summary>
+        internal static string Category_Style_Header {
+            get {
+                return ResourceManager.GetString("Category_Style_Header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Scroll Bars.
+        /// </summary>
+        internal static string Category_Style_ScrollBar {
+            get {
+                return ResourceManager.GetString("Category_Style_ScrollBar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tile.
+        /// </summary>
+        internal static string Category_Style_Tile {
+            get {
+                return ResourceManager.GetString("Category_Style_Tile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap clear_formatting {
+            get {
+                object obj = ResourceManager.GetObject("clear_formatting", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] close {
+            get {
+                object obj = ResourceManager.GetObject("close", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure....
+        /// </summary>
+        internal static string Configure {
+            get {
+                return ResourceManager.GetString("Configure", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ctrl.
+        /// </summary>
+        internal static string Ctrl {
+            get {
+                return ResourceManager.GetString("Ctrl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set all values.
+        /// </summary>
+        internal static string Description_BorderRadius_All {
+            get {
+                return ResourceManager.GetString("Description_BorderRadius_All", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bottom left border radius.
+        /// </summary>
+        internal static string Description_BorderRadius_BottomLeft {
+            get {
+                return ResourceManager.GetString("Description_BorderRadius_BottomLeft", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bottom right border radius.
+        /// </summary>
+        internal static string Description_BorderRadius_BottomRight {
+            get {
+                return ResourceManager.GetString("Description_BorderRadius_BottomRight", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Top left border radius.
+        /// </summary>
+        internal static string Description_BorderRadius_TopLeft {
+            get {
+                return ResourceManager.GetString("Description_BorderRadius_TopLeft", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Top right border radius.
+        /// </summary>
+        internal static string Description_BorderRadius_TopRight {
+            get {
+                return ResourceManager.GetString("Description_BorderRadius_TopRight", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tile background color.
+        /// </summary>
+        internal static string Description_Style_AltCodeBackColor {
+            get {
+                return ResourceManager.GetString("Description_Style_AltCodeBackColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tile border color.
+        /// </summary>
+        internal static string Description_Style_AltCodeBorderColor {
+            get {
+                return ResourceManager.GetString("Description_Style_AltCodeBorderColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tile border radius.
+        /// </summary>
+        internal static string Description_Style_AltCodeBorderRadius {
+            get {
+                return ResourceManager.GetString("Description_Style_AltCodeBorderRadius", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tile border thickness.
+        /// </summary>
+        internal static string Description_Style_AltCodeBorderSize {
+            get {
+                return ResourceManager.GetString("Description_Style_AltCodeBorderSize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Preview character horizontal alignment.
+        /// </summary>
+        internal static string Description_Style_AltCodeCharAlignment {
+            get {
+                return ResourceManager.GetString("Description_Style_AltCodeCharAlignment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Preview character font.
+        /// </summary>
+        internal static string Description_Style_AltCodeCharFont {
+            get {
+                return ResourceManager.GetString("Description_Style_AltCodeCharFont", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Alt Code horizontal alignment.
+        /// </summary>
+        internal static string Description_Style_AltCodeCodeAlignment {
+            get {
+                return ResourceManager.GetString("Description_Style_AltCodeCodeAlignment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Alt Code font.
+        /// </summary>
+        internal static string Description_Style_AltCodeCodeFont {
+            get {
+                return ResourceManager.GetString("Description_Style_AltCodeCodeFont", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Collapse margins between tiles.
+        /// </summary>
+        internal static string Description_Style_AltCodeCollapseMargins {
+            get {
+                return ResourceManager.GetString("Description_Style_AltCodeCollapseMargins", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Normal text color.
+        /// </summary>
+        internal static string Description_Style_AltCodeForeColor {
+            get {
+                return ResourceManager.GetString("Description_Style_AltCodeForeColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Background color when tile is hovered.
+        /// </summary>
+        internal static string Description_Style_AltCodeHoverBackColor {
+            get {
+                return ResourceManager.GetString("Description_Style_AltCodeHoverBackColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Border color when tile is hovered.
+        /// </summary>
+        internal static string Description_Style_AltCodeHoverBorderColor {
+            get {
+                return ResourceManager.GetString("Description_Style_AltCodeHoverBorderColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Text color when tile is hovered.
+        /// </summary>
+        internal static string Description_Style_AltCodeHoverForeColor {
+            get {
+                return ResourceManager.GetString("Description_Style_AltCodeHoverForeColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Margin between tiles.
+        /// </summary>
+        internal static string Description_Style_AltCodeMargin {
+            get {
+                return ResourceManager.GetString("Description_Style_AltCodeMargin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Padding inside of tiles.
+        /// </summary>
+        internal static string Description_Style_AltCodePadding {
+            get {
+                return ResourceManager.GetString("Description_Style_AltCodePadding", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tile size.
+        /// </summary>
+        internal static string Description_Style_AltCodeSize {
+            get {
+                return ResourceManager.GetString("Description_Style_AltCodeSize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Default horizontal text alignment.
+        /// </summary>
+        internal static string Description_Style_DefaultAlignment {
+            get {
+                return ResourceManager.GetString("Description_Style_DefaultAlignment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Default background color.
+        /// </summary>
+        internal static string Description_Style_DefaultBackColor {
+            get {
+                return ResourceManager.GetString("Description_Style_DefaultBackColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Default font.
+        /// </summary>
+        internal static string Description_Style_DefaultFont {
+            get {
+                return ResourceManager.GetString("Description_Style_DefaultFont", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Default color for foreground elements (text and other elements).
+        /// </summary>
+        internal static string Description_Style_DefaultForeColor {
+            get {
+                return ResourceManager.GetString("Description_Style_DefaultForeColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Header text horizontal alignment.
+        /// </summary>
+        internal static string Description_Style_HeaderAlignment {
+            get {
+                return ResourceManager.GetString("Description_Style_HeaderAlignment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Header background color.
+        /// </summary>
+        internal static string Description_Style_HeaderBackColor {
+            get {
+                return ResourceManager.GetString("Description_Style_HeaderBackColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Header horizontal divider thickness.
+        /// </summary>
+        internal static string Description_Style_HeaderDividerSize {
+            get {
+                return ResourceManager.GetString("Description_Style_HeaderDividerSize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Header text font.
+        /// </summary>
+        internal static string Description_Style_HeaderFont {
+            get {
+                return ResourceManager.GetString("Description_Style_HeaderFont", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Header text color.
+        /// </summary>
+        internal static string Description_Style_HeaderForeColor {
+            get {
+                return ResourceManager.GetString("Description_Style_HeaderForeColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Header margin.
+        /// </summary>
+        internal static string Description_Style_HeaderMargin {
+            get {
+                return ResourceManager.GetString("Description_Style_HeaderMargin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Header padding.
+        /// </summary>
+        internal static string Description_Style_HeaderPadding {
+            get {
+                return ResourceManager.GetString("Description_Style_HeaderPadding", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Scrollbar color.
+        /// </summary>
+        internal static string Description_Style_ScrollbarForeColor {
+            get {
+                return ResourceManager.GetString("Description_Style_ScrollbarForeColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Scrollbar width.
+        /// </summary>
+        internal static string Description_Style_ScrollWidth {
+            get {
+                return ResourceManager.GetString("Description_Style_ScrollWidth", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dimensions.
+        /// </summary>
+        internal static string Dimensions {
+            get {
+                return ResourceManager.GetString("Dimensions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to All.
+        /// </summary>
+        internal static string DisplayName_BorderRadius_All {
+            get {
+                return ResourceManager.GetString("DisplayName_BorderRadius_All", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bottom Left.
+        /// </summary>
+        internal static string DisplayName_BorderRadius_BottomLeft {
+            get {
+                return ResourceManager.GetString("DisplayName_BorderRadius_BottomLeft", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bottom Right.
+        /// </summary>
+        internal static string DisplayName_BorderRadius_BottomRight {
+            get {
+                return ResourceManager.GetString("DisplayName_BorderRadius_BottomRight", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Top Left.
+        /// </summary>
+        internal static string DisplayName_BorderRadius_TopLeft {
+            get {
+                return ResourceManager.GetString("DisplayName_BorderRadius_TopLeft", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Top Right.
+        /// </summary>
+        internal static string DisplayName_BorderRadius_TopRight {
+            get {
+                return ResourceManager.GetString("DisplayName_BorderRadius_TopRight", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Background.
+        /// </summary>
+        internal static string DisplayName_Style_AltCodeBackColor {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_AltCodeBackColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Border Color.
+        /// </summary>
+        internal static string DisplayName_Style_AltCodeBorderColor {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_AltCodeBorderColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Border Radius.
+        /// </summary>
+        internal static string DisplayName_Style_AltCodeBorderRadius {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_AltCodeBorderRadius", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Border Size.
+        /// </summary>
+        internal static string DisplayName_Style_AltCodeBorderSize {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_AltCodeBorderSize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Preview Alignment.
+        /// </summary>
+        internal static string DisplayName_Style_AltCodeCharAlignment {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_AltCodeCharAlignment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Preview Font.
+        /// </summary>
+        internal static string DisplayName_Style_AltCodeCharFont {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_AltCodeCharFont", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Alt Code Alignment.
+        /// </summary>
+        internal static string DisplayName_Style_AltCodeCodeAlignment {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_AltCodeCodeAlignment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Alt Code Font.
+        /// </summary>
+        internal static string DisplayName_Style_AltCodeCodeFont {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_AltCodeCodeFont", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Collapse Margins.
+        /// </summary>
+        internal static string DisplayName_Style_AltCodeCollapseMargins {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_AltCodeCollapseMargins", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Color.
+        /// </summary>
+        internal static string DisplayName_Style_AltCodeForeColor {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_AltCodeForeColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hover Background.
+        /// </summary>
+        internal static string DisplayName_Style_AltCodeHoverBackColor {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_AltCodeHoverBackColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hover Border Color.
+        /// </summary>
+        internal static string DisplayName_Style_AltCodeHoverBorderColor {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_AltCodeHoverBorderColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hover Color.
+        /// </summary>
+        internal static string DisplayName_Style_AltCodeHoverForeColor {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_AltCodeHoverForeColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Margin.
+        /// </summary>
+        internal static string DisplayName_Style_AltCodeMargin {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_AltCodeMargin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Padding.
+        /// </summary>
+        internal static string DisplayName_Style_AltCodePadding {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_AltCodePadding", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Size.
+        /// </summary>
+        internal static string DisplayName_Style_AltCodeSize {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_AltCodeSize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Text Alignment.
+        /// </summary>
+        internal static string DisplayName_Style_DefaultAlignment {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_DefaultAlignment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Background.
+        /// </summary>
+        internal static string DisplayName_Style_DefaultBackColor {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_DefaultBackColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Font.
+        /// </summary>
+        internal static string DisplayName_Style_DefaultFont {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_DefaultFont", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Color.
+        /// </summary>
+        internal static string DisplayName_Style_DefaultForeColor {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_DefaultForeColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Text Alignment.
+        /// </summary>
+        internal static string DisplayName_Style_HeaderAlignment {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_HeaderAlignment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Background.
+        /// </summary>
+        internal static string DisplayName_Style_HeaderBackColor {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_HeaderBackColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Divider Size.
+        /// </summary>
+        internal static string DisplayName_Style_HeaderDividerSize {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_HeaderDividerSize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Font.
+        /// </summary>
+        internal static string DisplayName_Style_HeaderFont {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_HeaderFont", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Color.
+        /// </summary>
+        internal static string DisplayName_Style_HeaderForeColor {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_HeaderForeColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Margin.
+        /// </summary>
+        internal static string DisplayName_Style_HeaderMargin {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_HeaderMargin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Padding.
+        /// </summary>
+        internal static string DisplayName_Style_HeaderPadding {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_HeaderPadding", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Color.
+        /// </summary>
+        internal static string DisplayName_Style_ScrollbarForeColor {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_ScrollbarForeColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Width.
+        /// </summary>
+        internal static string DisplayName_Style_ScrollWidth {
+            get {
+                return ResourceManager.GetString("DisplayName_Style_ScrollWidth", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set header margin....
+        /// </summary>
+        internal static string EditHeaderMargin {
+            get {
+                return ResourceManager.GetString("EditHeaderMargin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set tile margin....
+        /// </summary>
+        internal static string EditTileMargin {
+            get {
+                return ResourceManager.GetString("EditTileMargin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set tile padding....
+        /// </summary>
+        internal static string EditTilePadding {
+            get {
+                return ResourceManager.GetString("EditTilePadding", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error.
+        /// </summary>
+        internal static string Error {
+            get {
+                return ResourceManager.GetString("Error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Failed to load alt codes: .
+        /// </summary>
+        internal static string ErrorFailedToLoadAltCodes {
+            get {
+                return ResourceManager.GetString("ErrorFailedToLoadAltCodes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Exit.
+        /// </summary>
+        internal static string Exit {
+            get {
+                return ResourceManager.GetString("Exit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid Border Radius value. Enter four whole numbers separated by commas, such as: &quot;0, 0, 0, 0&quot;..
+        /// </summary>
+        internal static string FailedToParseBorderRadius {
+            get {
+                return ResourceManager.GetString("FailedToParseBorderRadius", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Favorites.
+        /// </summary>
+        internal static string Favorites {
+            get {
+                return ResourceManager.GetString("Favorites", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show the kneeboard while the key combination is pressed..
+        /// </summary>
+        internal static string Hotkey_Momentary_Desc {
+            get {
+                return ResourceManager.GetString("Hotkey_Momentary_Desc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Momentary.
+        /// </summary>
+        internal static string Hotkey_Momentary_Name {
+            get {
+                return ResourceManager.GetString("Hotkey_Momentary_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Toggle the kneeboard when the key combination is pressed..
+        /// </summary>
+        internal static string Hotkey_Toggle_Desc {
+            get {
+                return ResourceManager.GetString("Hotkey_Toggle_Desc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Toggle.
+        /// </summary>
+        internal static string Hotkey_Toggle_Name {
+            get {
+                return ResourceManager.GetString("Hotkey_Toggle_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hotkeys.
+        /// </summary>
+        internal static string Hotkeys {
+            get {
+                return ResourceManager.GetString("Hotkeys", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] keyboard {
+            get {
+                object obj = ResourceManager.GetObject("keyboard", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Alt Code Kneeboard has been minimized to the system tray....
+        /// </summary>
+        internal static string MinimizedToTray {
+            get {
+                return ResourceManager.GetString("MinimizedToTray", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No.
+        /// </summary>
+        internal static string No {
+            get {
+                return ResourceManager.GetString("No", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Not Set.
+        /// </summary>
+        internal static string NotSet {
+            get {
+                return ResourceManager.GetString("NotSet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap open {
+            get {
+                object obj = ResourceManager.GetObject("open", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] palette {
+            get {
+                object obj = ResourceManager.GetObject("palette", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] placement {
+            get {
+                object obj = ResourceManager.GetObject("placement", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Click and drag to move or resize the kneeboard....
+        /// </summary>
+        internal static string PlacementMessage {
+            get {
+                return ResourceManager.GetString("PlacementMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Press a key combination....
+        /// </summary>
+        internal static string PressKeyCombination {
+            get {
+                return ResourceManager.GetString("PressKeyCombination", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap save {
+            get {
+                object obj = ResourceManager.GetObject("save", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap save_as {
+            get {
+                object obj = ResourceManager.GetObject("save_as", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Shift.
+        /// </summary>
+        internal static string Shift {
+            get {
+                return ResourceManager.GetString("Shift", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Character Map....
+        /// </summary>
+        internal static string ShowCharMap {
+            get {
+                return ResourceManager.GetString("ShowCharMap", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sort_asc_az {
+            get {
+                object obj = ResourceManager.GetObject("sort_asc_az", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] star {
+            get {
+                object obj = ResourceManager.GetObject("star", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Toggle Kneeboard.
+        /// </summary>
+        internal static string ToggleKneeboard {
+            get {
+                return ResourceManager.GetString("ToggleKneeboard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TransparencyBackground {
+            get {
+                object obj = ResourceManager.GetObject("TransparencyBackground", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You have unsaved changes to this stylesheet. Would you like to save them?.
+        /// </summary>
+        internal static string UnsavedChangesCss {
+            get {
+                return ResourceManager.GetString("UnsavedChangesCss", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Win.
+        /// </summary>
+        internal static string Win {
+            get {
+                return ResourceManager.GetString("Win", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Yes.
+        /// </summary>
+        internal static string Yes {
+            get {
+                return ResourceManager.GetString("Yes", resourceCulture);
             }
         }
     }

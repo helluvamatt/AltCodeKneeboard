@@ -1,7 +1,39 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AltCodeKneeboard.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MomentaryShowEnabled" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="MomentaryShowKeyCombo" Type="System.UInt64" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ToggleShowEnabled" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ToggleShowKeyCombo" Type="System.UInt64" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="HotkeysEnabled" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Favorites" Type="System.Int32[]" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="StartPosition" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">0, 0</Value>
+    </Setting>
+    <Setting Name="Size" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">300, 400</Value>
+    </Setting>
+    <Setting Name="HiddenGroups" Type="System.Int32[]" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="StyleTheme" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Default</Value>
+    </Setting>
+    <Setting Name="SortMode" Type="AltCodeKneeboard.SortMode" Scope="User">
+      <Value Profile="(Default)">Grouped</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>

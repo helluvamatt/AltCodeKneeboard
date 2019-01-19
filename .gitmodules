@@ -1,0 +1,3 @@
+[submodule "Cyotek.Windows.Forms.ColorPicker"]
+	path = Cyotek.Windows.Forms.ColorPicker
+	url = git@github.com:cyotek/Cyotek.Windows.Forms.ColorPicker.git

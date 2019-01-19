@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Theme" targetNamespace="http://schneenet.com/Kneeboard/Theme.xsd" elementFormDefault="qualified" xmlns="http://schneenet.com/Kneeboard/Theme.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <!-- TypeDefs -->
+  <xs:simpleType name="HorizontalAlignmentDef">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Left" />
+      <xs:enumeration value="Center" />
+      <xs:enumeration value="Right" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="SizeUnitDef">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="in" />
+      <xs:enumeration value="mm" />
+      <xs:enumeration value="pt" />
+      <xs:enumeration value="px" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!-- Types -->
+  <xs:complexType name="Color">
+    <xs:simpleContent>
+      <xs:extension base="xs:string" />
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="Font">
+    <xs:all>
+      <xs:element name="Font">
+        <xs:complexType>
+          <xs:attribute name="Family" type="xs:string" use="required" />
+          <xs:attribute name="Size" type="xs:float" use="required" />
+          <xs:attribute name="SizeUnit" type="SizeUnitDef" use="required" />
+          <xs:attribute name="Bold" type="xs:boolean" use="optional" default="false" />
+          <xs:attribute name="Italic" type="xs:boolean" use="optional" default="false" />
+          <xs:attribute name="Underline" type="xs:boolean" use="optional" default="false" />
+          <xs:attribute name="Strikethrough" type="xs:boolean" use="optional" default="false" />
+        </xs:complexType>
+      </xs:element>
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="HorizontalAlignment">
+    <xs:simpleContent>
+      <xs:extension base="HorizontalAlignmentDef" />
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="Padding">
+    <xs:all>
+      <xs:element name="Padding">
+        <xs:complexType>
+          <xs:attribute name="Left" type="xs:int" use="required" />
+          <xs:attribute name="Top" type="xs:int" use="required" />
+          <xs:attribute name="Right" type="xs:int" use="required" />
+          <xs:attribute name="Bottom" type="xs:int" use="required" />
+        </xs:complexType>
+      </xs:element>
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="Size">
+    <xs:all>
+      <xs:element name="Size">
+        <xs:complexType>
+          <xs:attribute name="Width" type="xs:int" use="required" />
+          <xs:attribute name="Height" type="xs:int" use="required" />
+        </xs:complexType>
+      </xs:element>
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="BorderRadius">
+    <xs:all>
+      <xs:element name="BorderRadius">
+        <xs:complexType>
+          <xs:attribute name="TopLeft" type="xs:int" use="required" />
+          <xs:attribute name="TopRight" type="xs:int" use="required" />
+          <xs:attribute name="BottomLeft" type="xs:int" use="required" />
+          <xs:attribute name="BottomRight" type="xs:int" use="required" />
+        </xs:complexType>
+      </xs:element>
+    </xs:all>
+  </xs:complexType>
+  <!-- Root Element -->
+  <xs:element name="Theme">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element minOccurs="1" maxOccurs="1" type="Color" name="DefaultForeColor" />
+          <xs:element minOccurs="1" maxOccurs="1" type="Color" name="DefaultBackColor" />
+          <xs:element minOccurs="1" maxOccurs="1" type="Font" name="DefaultFont" />
+          <xs:element minOccurs="1" maxOccurs="1" type="HorizontalAlignment" name="DefaultAlignment" />
+          <xs:element minOccurs="0" maxOccurs="1" type="xs:float" name="ScrollbarWidth" />
+          <xs:element minOccurs="0" maxOccurs="1" type="Color" name="ScrollbarForeColor" />
+          <xs:element minOccurs="0" maxOccurs="1" type="Color" name="HeaderForeColor" />
+          <xs:element minOccurs="0" maxOccurs="1" type="Color" name="HeaderBackColor" />
+          <xs:element minOccurs="0" maxOccurs="1" type="Padding" name="HeaderMargin" />
+          <xs:element minOccurs="0" maxOccurs="1" type="Padding" name="HeaderPadding" />
+          <xs:element minOccurs="0" maxOccurs="1" type="Font" name="HeaderFont" />
+          <xs:element minOccurs="0" maxOccurs="1" type="HorizontalAlignment" name="HeaderAlignment" />
+          <xs:element minOccurs="0" maxOccurs="1" type="xs:float" name="HeaderDividerSize" />
+          <xs:element minOccurs="0" maxOccurs="1" type="Color" name="AltCodeForeColor" />
+          <xs:element minOccurs="0" maxOccurs="1" type="Color" name="AltCodeBackColor" />
+          <xs:element minOccurs="0" maxOccurs="1" type="Color" name="AltCodeBorderColor" />
+          <xs:element minOccurs="0" maxOccurs="1" type="Color" name="AltCodeHoverForeColor" />
+          <xs:element minOccurs="0" maxOccurs="1" type="Color" name="AltCodeHoverBackColor" />
+          <xs:element minOccurs="0" maxOccurs="1" type="Color" name="AltCodeHoverBorderColor" />
+          <xs:element minOccurs="0" maxOccurs="1" type="Size" name="AltCodeSize" />
+          <xs:element minOccurs="0" maxOccurs="1" type="Padding" name="AltCodePadding" />
+          <xs:element minOccurs="0" maxOccurs="1" type="Padding" name="AltCodeMargin" />
+          <xs:element minOccurs="0" maxOccurs="1" type="xs:boolean" name="AltCodeCollapseMargins" />
+          <xs:element minOccurs="0" maxOccurs="1" type="xs:float" name="AltCodeBorderSize" />
+          <xs:element minOccurs="0" maxOccurs="1" type="BorderRadius" name="AltCodeBorderRadius" />
+          <xs:element minOccurs="0" maxOccurs="1" type="Font" name="AltCodeCharFont" />
+          <xs:element minOccurs="0" maxOccurs="1" type="HorizontalAlignment" name="AltCodeCharAlignment" />
+          <xs:element minOccurs="0" maxOccurs="1" type="Font" name="AltCodeCodeFont" />
+          <xs:element minOccurs="0" maxOccurs="1" type="HorizontalAlignment" name="AltCodeCodeAlignment" />
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute name="Name" type="xs:string" use="optional" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

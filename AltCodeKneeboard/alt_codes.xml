@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<altcodedata xmlns="http://schneenet.com/AltCodes.xsd">
+  <groups>
+    <group id="0" name="Alphanumeric" iconChar="A" />
+    <group id="1" name="Punctuation and Diacritics" iconChar="!" />
+    <group id="2" name="Accented Letters" iconChar="Ã" />
+    <group id="3" name="Math" iconChar="±" />
+    <group id="4" name="Greek" iconChar="Ω" />
+    <group id="5" name="Arrows" iconChar="→" />
+    <group id="6" name="Symbols" iconChar="♥" />
+    <group id="7" name="Currency" iconChar="$" />
+    <group id="8" name="Drawing" iconChar="╬"/>
+  </groups>
+  <altcodes>
+    <altcode unicode="0x0021" groups="1" description="Exclamation Mark" />
+    <altcode unicode="0x0022" groups="1" description="Quotation Mark" />
+    <altcode unicode="0x0023" groups="1" description="Number Sign" />
+    <altcode unicode="0x0024" groups="1" description="Dollar Sign" />
+    <altcode unicode="0x0025" groups="1" description="Percent Sign" />
+    <altcode unicode="0x0026" groups="1" description="Ampersand" />
+    <altcode unicode="0x0027" groups="1" description="Apostrophe" />
+    <altcode unicode="0x0028" groups="1" description="Left Parenthesis" />
+    <altcode unicode="0x0029" groups="1" description="Right Parenthesis" />
+    <altcode unicode="0x002a" groups="1" description="Asterisk" />
+    <altcode unicode="0x002b" groups="1" description="Plus Sign" />
+    <altcode unicode="0x002c" groups="1" description="Comma" />
+    <altcode unicode="0x002d" groups="1" description="Hyphen-Minus" />
+    <altcode unicode="0x002e" groups="1" description="Full Stop" />
+    <altcode unicode="0x002f" groups="1" description="Solidus" />
+    <altcode unicode="0x0030" groups="0" description="Digit Zero" />
+    <altcode unicode="0x0031" groups="0" description="Digit One" />
+    <altcode unicode="0x0032" groups="0" description="Digit Two" />
+    <altcode unicode="0x0033" groups="0" description="Digit Three" />
+    <altcode unicode="0x0034" groups="0" description="Digit Four" />
+    <altcode unicode="0x0035" groups="0" description="Digit Five" />
+    <altcode unicode="0x0036" groups="0" description="Digit Six" />
+    <altcode unicode="0x0037" groups="0" description="Digit Seven" />
+    <altcode unicode="0x0038" groups="0" description="Digit Eight" />
+    <altcode unicode="0x0039" groups="0" description="Digit Nine" />
+    <altcode unicode="0x003a" groups="1" description="Colon" />
+    <altcode unicode="0x003b" groups="1" description="Semicolon" />
+    <altcode unicode="0x003c" groups="1" description="Less-Than Sign" />
+    <altcode unicode="0x003d" groups="1" description="Equals Sign" />
+    <altcode unicode="0x003e" groups="1" description="Greater-Than Sign" />
+    <altcode unicode="0x003f" groups="1" description="Question Mark" />
+    <altcode unicode="0x0040" groups="1" description="Commercial At" />
+    <altcode unicode="0x0041" groups="0" description="Latin Capital Letter A" />
+    <altcode unicode="0x0042" groups="0" description="Latin Capital Letter B" />
+    <altcode unicode="0x0043" groups="0" description="Latin Capital Letter C" />
+    <altcode unicode="0x0044" groups="0" description="Latin Capital Letter D" />
+    <altcode unicode="0x0045" groups="0" description="Latin Capital Letter E" />
+    <altcode unicode="0x0046" groups="0" description="Latin Capital Letter F" />
+    <altcode unicode="0x0047" groups="0" description="Latin Capital Letter G" />
+    <altcode unicode="0x0048" groups="0" description="Latin Capital Letter H" />
+    <altcode unicode="0x0049" groups="0" description="Latin Capital Letter I" />
+    <altcode unicode="0x004a" groups="0" description="Latin Capital Letter J" />
+    <altcode unicode="0x004b" groups="0" description="Latin Capital Letter K" />
+    <altcode unicode="0x004c" groups="0" description="Latin Capital Letter L" />
+    <altcode unicode="0x004d" groups="0" description="Latin Capital Letter M" />
+    <altcode unicode="0x004e" groups="0" description="Latin Capital Letter N" />
+    <altcode unicode="0x004f" groups="0" description="Latin Capital Letter O" />
+    <altcode unicode="0x0050" groups="0" description="Latin Capital Letter P" />
+    <altcode unicode="0x0051" groups="0" description="Latin Capital Letter Q" />
+    <altcode unicode="0x0052" groups="0" description="Latin Capital Letter R" />
+    <altcode unicode="0x0053" groups="0" description="Latin Capital Letter S" />
+    <altcode unicode="0x0054" groups="0" description="Latin Capital Letter T" />
+    <altcode unicode="0x0055" groups="0" description="Latin Capital Letter U" />
+    <altcode unicode="0x0056" groups="0" description="Latin Capital Letter V" />
+    <altcode unicode="0x0057" groups="0" description="Latin Capital Letter W" />
+    <altcode unicode="0x0058" groups="0" description="Latin Capital Letter X" />
+    <altcode unicode="0x0059" groups="0" description="Latin Capital Letter Y" />
+    <altcode unicode="0x005a" groups="0" description="Latin Capital Letter Z" />
+    <altcode unicode="0x005b" groups="1" description="Left Square Bracket" />
+    <altcode unicode="0x005c" groups="1" description="Reverse Solidus" />
+    <altcode unicode="0x005d" groups="1" description="Right Square Bracket" />
+    <altcode unicode="0x005e" groups="1" description="Circumflex Accent" />
+    <altcode unicode="0x005f" groups="1" description="Low Line" />
+    <altcode unicode="0x0060" groups="1" description="Grave Accent" />
+    <altcode unicode="0x0061" groups="0" description="Latin Small Letter A" />
+    <altcode unicode="0x0062" groups="0" description="Latin Small Letter B" />
+    <altcode unicode="0x0063" groups="0" description="Latin Small Letter C" />
+    <altcode unicode="0x0064" groups="0" description="Latin Small Letter D" />
+    <altcode unicode="0x0065" groups="0" description="Latin Small Letter E" />
+    <altcode unicode="0x0066" groups="0" description="Latin Small Letter F" />
+    <altcode unicode="0x0067" groups="0" description="Latin Small Letter G" />
+    <altcode unicode="0x0068" groups="0" description="Latin Small Letter H" />
+    <altcode unicode="0x0069" groups="0" description="Latin Small Letter I" />
+    <altcode unicode="0x006a" groups="0" description="Latin Small Letter J" />
+    <altcode unicode="0x006b" groups="0" description="Latin Small Letter K" />
+    <altcode unicode="0x006c" groups="0" description="Latin Small Letter L" />
+    <altcode unicode="0x006d" groups="0" description="Latin Small Letter M" />
+    <altcode unicode="0x006e" groups="0" description="Latin Small Letter N" />
+    <altcode unicode="0x006f" groups="0" description="Latin Small Letter O" />
+    <altcode unicode="0x0070" groups="0" description="Latin Small Letter P" />
+    <altcode unicode="0x0071" groups="0" description="Latin Small Letter Q" />
+    <altcode unicode="0x0072" groups="0" description="Latin Small Letter R" />
+    <altcode unicode="0x0073" groups="0" description="Latin Small Letter S" />
+    <altcode unicode="0x0074" groups="0" description="Latin Small Letter T" />
+    <altcode unicode="0x0075" groups="0" description="Latin Small Letter U" />
+    <altcode unicode="0x0076" groups="0" description="Latin Small Letter V" />
+    <altcode unicode="0x0077" groups="0" description="Latin Small Letter W" />
+    <altcode unicode="0x0078" groups="0" description="Latin Small Letter X" />
+    <altcode unicode="0x0079" groups="0" description="Latin Small Letter Y" />
+    <altcode unicode="0x007a" groups="0" description="Latin Small Letter Z" />
+    <altcode unicode="0x007b" groups="1" description="Left Curly Bracket" />
+    <altcode unicode="0x007c" groups="1" description="Vertical Line" />
+    <altcode unicode="0x007d" groups="1" description="Right Curly Bracket" />
+    <altcode unicode="0x007e" groups="1" description="Tilde" />
+    <altcode unicode="0x00a1" groups="1" description="Inverted Exclamation Mark" />
+    <altcode unicode="0x00a2" groups="7" description="Cent Sign" />
+    <altcode unicode="0x00a3" groups="7" description="Pound Sign" />
+    <altcode unicode="0x00a4" groups="7" description="Currency Sign" />
+    <altcode unicode="0x00a5" groups="7" description="Yen Sign" />
+    <altcode unicode="0x00a6" groups="1" description="Broken Bar" />
+    <altcode unicode="0x00a7" groups="1" description="Section Sign" />
+    <altcode unicode="0x00a8" groups="1" description="Diaeresis" />
+    <altcode unicode="0x00a9" groups="6" description="Copyright Sign" />
+    <altcode unicode="0x00aa" groups="1" description="Feminine Ordinal Indicator" />
+    <altcode unicode="0x00ab" groups="1" description="Left-Pointing Double Angle Quotation Mark" />
+    <altcode unicode="0x00ac" groups="3" description="Not Sign" />
+    <altcode unicode="0x00ad" groups="1" description="Soft Hyphen" />
+    <altcode unicode="0x00ae" groups="6" description="Registered Sign" />
+    <altcode unicode="0x00af" groups="1" description="Macron" />
+    <altcode unicode="0x00b0" groups="3" description="Degree Sign" />
+    <altcode unicode="0x00b1" groups="3" description="Plus-Minus Sign" />
+    <altcode unicode="0x00b2" groups="3" description="Superscript Two" />
+    <altcode unicode="0x00b3" groups="3" description="Superscript Three" />
+    <altcode unicode="0x00b4" groups="1" description="Acute Accent" />
+    <altcode unicode="0x00b5" groups="3" description="Micro Sign" />
+    <altcode unicode="0x00b6" groups="1" description="Pilcrow Sign" />
+    <altcode unicode="0x00b7" groups="1" description="Middle Dot" />
+    <altcode unicode="0x00b8" groups="1" description="Cedilla" />
+    <altcode unicode="0x00b9" groups="3" description="Superscript One" />
+    <altcode unicode="0x00ba" groups="1" description="Masculine Ordinal Indicator" />
+    <altcode unicode="0x00bb" groups="1" description="Right-Pointing Double Angle Quotation Mark" />
+    <altcode unicode="0x00bc" groups="3" description="Vulgar Fraction One Quarter" />
+    <altcode unicode="0x00bd" groups="3" description="Vulgar Fraction One Half" />
+    <altcode unicode="0x00be" groups="3" description="Vulgar Fraction Three Quarters" />
+    <altcode unicode="0x00bf" groups="1" description="Inverted Question Mark" />
+    <altcode unicode="0x00c0" groups="2" description="Latin Capital Letter A With Grave" />
+    <altcode unicode="0x00c1" groups="2" description="Latin Capital Letter A With Acute" />
+    <altcode unicode="0x00c2" groups="2" description="Latin Capital Letter A With Circumflex" />
+    <altcode unicode="0x00c3" groups="2" description="Latin Capital Letter A With Tilde" />
+    <altcode unicode="0x00c4" groups="2" description="Latin Capital Letter A With Diaeresis" />
+    <altcode unicode="0x00c5" groups="2" description="Latin Capital Letter A With Ring Above" />
+    <altcode unicode="0x00c6" groups="2" description="Latin Capital Ligature Ae" />
+    <altcode unicode="0x00c7" groups="2" description="Latin Capital Letter C With Cedilla" />
+    <altcode unicode="0x00c8" groups="2" description="Latin Capital Letter E With Grave" />
+    <altcode unicode="0x00c9" groups="2" description="Latin Capital Letter E With Acute" />
+    <altcode unicode="0x00ca" groups="2" description="Latin Capital Letter E With Circumflex" />
+    <altcode unicode="0x00cb" groups="2" description="Latin Capital Letter E With Diaeresis" />
+    <altcode unicode="0x00cc" groups="2" description="Latin Capital Letter I With Grave" />
+    <altcode unicode="0x00cd" groups="2" description="Latin Capital Letter I With Acute" />
+    <altcode unicode="0x00ce" groups="2" description="Latin Capital Letter I With Circumflex" />
+    <altcode unicode="0x00cf" groups="2" description="Latin Capital Letter I With Diaeresis" />
+    <altcode unicode="0x00d0" groups="2" description="Latin Capital Letter Eth" />
+    <altcode unicode="0x00d1" groups="2" description="Latin Capital Letter N With Tilde" />
+    <altcode unicode="0x00d2" groups="2" description="Latin Capital Letter O With Grave" />
+    <altcode unicode="0x00d3" groups="2" description="Latin Capital Letter O With Acute" />
+    <altcode unicode="0x00d4" groups="2" description="Latin Capital Letter O With Circumflex" />
+    <altcode unicode="0x00d5" groups="2" description="Latin Capital Letter O With Tilde" />
+    <altcode unicode="0x00d6" groups="2" description="Latin Capital Letter O With Diaeresis" />
+    <altcode unicode="0x00d7" groups="3" description="Multiplication Sign" />
+    <altcode unicode="0x00d8" groups="2" description="Latin Capital Letter O With Stroke" />
+    <altcode unicode="0x00d9" groups="2" description="Latin Capital Letter U With Grave" />
+    <altcode unicode="0x00da" groups="2" description="Latin Capital Letter U With Acute" />
+    <altcode unicode="0x00db" groups="2" description="Latin Capital Letter U With Circumflex" />
+    <altcode unicode="0x00dc" groups="2" description="Latin Capital Letter U With Diaeresis" />
+    <altcode unicode="0x00dd" groups="2" description="Latin Capital Letter Y With Acute" />
+    <altcode unicode="0x00de" groups="2" description="Latin Capital Letter Thorn" />
+    <altcode unicode="0x00df" groups="2" description="Latin Small Letter Sharp S" />
+    <altcode unicode="0x00e0" groups="2" description="Latin Small Letter A With Grave" />
+    <altcode unicode="0x00e1" groups="2" description="Latin Small Letter A With Acute" />
+    <altcode unicode="0x00e2" groups="2" description="Latin Small Letter A With Circumflex" />
+    <altcode unicode="0x00e3" groups="2" description="Latin Small Letter A With Tilde" />
+    <altcode unicode="0x00e4" groups="2" description="Latin Small Letter A With Diaeresis" />
+    <altcode unicode="0x00e5" groups="2" description="Latin Small Letter A With Ring Above" />
+    <altcode unicode="0x00e6" groups="2" description="Latin Small Ligature Ae" />
+    <altcode unicode="0x00e7" groups="2" description="Latin Small Letter C With Cedilla" />
+    <altcode unicode="0x00e8" groups="2" description="Latin Small Letter E With Grave" />
+    <altcode unicode="0x00e9" groups="2" description="Latin Small Letter E With Acute" />
+    <altcode unicode="0x00ea" groups="2" description="Latin Small Letter E With Circumflex" />
+    <altcode unicode="0x00eb" groups="2" description="Latin Small Letter E With Diaeresis" />
+    <altcode unicode="0x00ec" groups="2" description="Latin Small Letter I With Grave" />
+    <altcode unicode="0x00ed" groups="2" description="Latin Small Letter I With Acute" />
+    <altcode unicode="0x00ee" groups="2" description="Latin Small Letter I With Circumflex" />
+    <altcode unicode="0x00ef" groups="2" description="Latin Small Letter I With Diaeresis" />
+    <altcode unicode="0x00f0" groups="2" description="Latin Small Letter Eth" />
+    <altcode unicode="0x00f1" groups="2" description="Latin Small Letter N With Tilde" />
+    <altcode unicode="0x00f2" groups="2" description="Latin Small Letter O With Grave" />
+    <altcode unicode="0x00f3" groups="2" description="Latin Small Letter O With Acute" />
+    <altcode unicode="0x00f4" groups="2" description="Latin Small Letter O With Circumflex" />
+    <altcode unicode="0x00f5" groups="2" description="Latin Small Letter O With Tilde" />
+    <altcode unicode="0x00f6" groups="2" description="Latin Small Letter O With Diaeresis" />
+    <altcode unicode="0x00f7" groups="3" description="Division Sign" />
+    <altcode unicode="0x00f8" groups="2" description="Latin Small Letter O With Stroke" />
+    <altcode unicode="0x00f9" groups="2" description="Latin Small Letter U With Grave" />
+    <altcode unicode="0x00fa" groups="2" description="Latin Small Letter U With Acute" />
+    <altcode unicode="0x00fb" groups="2" description="Latin Small Letter U With Circumflex" />
+    <altcode unicode="0x00fc" groups="2" description="Latin Small Letter U With Diaeresis" />
+    <altcode unicode="0x00fd" groups="2" description="Latin Small Letter Y With Acute" />
+    <altcode unicode="0x00fe" groups="2" description="Latin Small Letter Thorn" />
+    <altcode unicode="0x00ff" groups="2" description="Latin Small Letter Y With Diaeresis" />
+    <altcode unicode="0x0152" groups="2" description="Latin Capital Ligature Oe" />
+    <altcode unicode="0x0153" groups="2" description="Latin Small Ligature Oe" />
+    <altcode unicode="0x0160" groups="2" description="Latin Capital Letter S With Caron" />
+    <altcode unicode="0x0161" groups="2" description="Latin Small Letter S With Caron" />
+    <altcode unicode="0x0178" groups="2" description="Latin Capital Letter Y With Diaeresis" />
+    <altcode unicode="0x017d" groups="2" description="Latin Capital Letter Z With Caron" />
+    <altcode unicode="0x017e" groups="2" description="Latin Small Letter Z With Caron" />
+    <altcode unicode="0x0192" groups="2" description="Latin Small Letter F With Hook" />
+    <altcode unicode="0x02c6" groups="1" description="Modifier Letter Circumflex Accent" />
+    <altcode unicode="0x02dc" groups="1" description="Small Tilde" />
+    <altcode unicode="0x0393" groups="4" description="Greek Capital Letter GAMMA" />
+    <altcode unicode="0x0398" groups="3,4" description="Greek Capital Letter THETA" />
+    <altcode unicode="0x03a3" groups="4" description="Greek Capital Letter SIGMA" />
+    <altcode unicode="0x03a6" groups="4" description="Greek Capital Letter PHI" />
+    <altcode unicode="0x03a9" groups="4" description="Greek Capital Letter OMEGA" />
+    <altcode unicode="0x03b1" groups="4" description="Greek Small Letter ALPHA" />
+    <altcode unicode="0x03b4" groups="3,4" description="Greek Small Letter DELTA" />
+    <altcode unicode="0x03b5" groups="4" description="Greek Small Letter EPSILON" />
+    <altcode unicode="0x03c0" groups="3,4" description="Greek Small Letter PI" />
+    <altcode unicode="0x03c3" groups="4" description="Greek Small Letter SIGMA" />
+    <altcode unicode="0x03c4" groups="3,4" description="Greek Small Letter TAU" />
+    <altcode unicode="0x03c6" groups="4" description="Greek Small Letter PHI" />
+    <altcode unicode="0x2013" groups="1" description="En Dash" />
+    <altcode unicode="0x2014" groups="1" description="Em Dash" />
+    <altcode unicode="0x2018" groups="1" description="Left Single Quotation Mark" />
+    <altcode unicode="0x2019" groups="1" description="Right Single Quotation Mark" />
+    <altcode unicode="0x201a" groups="1" description="Single Low-9 Quotation Mark" />
+    <altcode unicode="0x201c" groups="1" description="Left Double Quotation Mark" />
+    <altcode unicode="0x201d" groups="1" description="Right Double Quotation Mark" />
+    <altcode unicode="0x201e" groups="1" description="Double Low-9 Quotation Mark" />
+    <altcode unicode="0x2020" groups="1" description="Dagger" />
+    <altcode unicode="0x2021" groups="1" description="Double Dagger" />
+    <altcode unicode="0x2022" groups="1" description="Bullet" />
+    <altcode unicode="0x2026" groups="1" description="Horizontal Ellipsis" />
+    <altcode unicode="0x2030" groups="3" description="Per Mille Sign" />
+    <altcode unicode="0x203c" groups="1" description="Double Exclamation Mark" />
+    <altcode unicode="0x2039" groups="1" description="Single Left-Pointing Angle Quotation Mark" />
+    <altcode unicode="0x203a" groups="1" description="Single Right-Pointing Angle Quotation Mark" />
+    <altcode unicode="0x207f" groups="3" description="Superscript Latin Small Letter N" />
+    <altcode unicode="0x20a7" groups="7" description="Peseta Sign" />
+    <altcode unicode="0x20ac" groups="7" description="Euro Sign" />
+    <altcode unicode="0x2122" groups="6" description="Trade Mark Sign" />
+    <altcode unicode="0x2190" groups="5" description="Leftwards Arrow" />
+    <altcode unicode="0x2191" groups="5" description="Upwqards Arrow" />
+    <altcode unicode="0x2192" groups="5" description="Rightwards Arrow" />
+    <altcode unicode="0x2193" groups="5" description="Downwards Arrow" />
+    <altcode unicode="0x2194" groups="5" description="Left Right Arrow" />
+    <altcode unicode="0x2195" groups="5" description="Up Down Arrow" />
+    <altcode unicode="0x21A8" groups="5" description="Up Down Arrow with Base" />
+    <altcode unicode="0x2219" groups="3" description="Bullet Operator" />
+    <altcode unicode="0x221a" groups="3" description="Square Root" />
+    <altcode unicode="0x221e" groups="3" description="Infinity" />
+    <altcode unicode="0x221f" groups="3" description="Right Angle" />
+    <altcode unicode="0x2229" groups="3" description="Intersection" />
+    <altcode unicode="0x2248" groups="3" description="Almost Equal To" />
+    <altcode unicode="0x2261" groups="3" description="Identical To" />
+    <altcode unicode="0x2264" groups="3" description="Less-than or Equal To" />
+    <altcode unicode="0x2265" groups="3" description="Greater-than or Equal To" />
+    <altcode unicode="0x2302" groups="6" description="House" />
+    <altcode unicode="0x2310" groups="3" description="Reversed Not Sign" />
+    <altcode unicode="0x2320" groups="3" description="Top Half Integral" />
+    <altcode unicode="0x2321" groups="3" description="Bottom Half Integral" />
+    <altcode unicode="0x2500" groups="8" description="Box Drawings Light Horizontal" />
+    <altcode unicode="0x2502" groups="8" description="Box Drawings Light Vertical" />
+    <altcode unicode="0x250c" groups="8" description="Box Drawings Light Down and Right" />
+    <altcode unicode="0x2510" groups="8" description="Box Drawings Light Down and Left" />
+    <altcode unicode="0x2514" groups="8" description="Box Drawings Light Up and Right" />
+    <altcode unicode="0x2518" groups="8" description="Box Drawings Light Up and Left" />
+    <altcode unicode="0x251c" groups="8" description="Box Drawings Light Vertical and Right" />
+    <altcode unicode="0x2524" groups="8" description="Box Drawings Light Vertical and Left" />
+    <altcode unicode="0x252c" groups="8" description="Box Drawings Light Down and Horizontal" />
+    <altcode unicode="0x2534" groups="8" description="Box Drawings Light Up and Horizontal" />
+    <altcode unicode="0x253c" groups="8" description="Box Drawings Light Vertical and Horizontal" />
+    <altcode unicode="0x2550" groups="8" description="Box Drawings Double Horizontal" />
+    <altcode unicode="0x2551" groups="8" description="Box Drawings Double Vertical" />
+    <altcode unicode="0x2552" groups="8" description="Box Drawings Down Single and Right Double" />
+    <altcode unicode="0x2553" groups="8" description="Box Drawings Down Double and Right Single" />
+    <altcode unicode="0x2554" groups="8" description="Box Drawings Double Down and Right" />
+    <altcode unicode="0x2555" groups="8" description="Box Drawings Down Single and Left Double" />
+    <altcode unicode="0x2556" groups="8" description="Box Drawings Down Double and Left Single" />
+    <altcode unicode="0x2557" groups="8" description="Box Drawings Double Down and Left" />
+    <altcode unicode="0x2558" groups="8" description="Box Drawings Up Single and Right Double" />
+    <altcode unicode="0x2559" groups="8" description="Box Drawings Up Double and Right Single" />
+    <altcode unicode="0x255a" groups="8" description="Box Drawings Double Up and Right" />
+    <altcode unicode="0x255b" groups="8" description="Box Drawings Up Single and Left Double" />
+    <altcode unicode="0x255c" groups="8" description="Box Drawings Up Double and Left Single" />
+    <altcode unicode="0x255d" groups="8" description="Box Drawings Double Up and Left" />
+    <altcode unicode="0x255e" groups="8" description="Box Drawings Vertical Single and Right Double" />
+    <altcode unicode="0x255f" groups="8" description="Box Drawings Vertical Double and Right Single" />
+    <altcode unicode="0x2560" groups="8" description="Box Drawings Double Vertical and Right" />
+    <altcode unicode="0x2561" groups="8" description="Box Drawings Vertical Single and Left Double" />
+    <altcode unicode="0x2562" groups="8" description="Box Drawings Vertical Double and Left Single" />
+    <altcode unicode="0x2563" groups="8" description="Box Drawings Double Vertical and Left" />
+    <altcode unicode="0x2564" groups="8" description="Box Drawings Down Single and Horizontal Double" />
+    <altcode unicode="0x2565" groups="8" description="Box Drawings Down Double and Horizontal Single" />
+    <altcode unicode="0x2566" groups="8" description="Box Drawings Double Down and Horizontal" />
+    <altcode unicode="0x2567" groups="8" description="Box Drawings Up Single and Horizontal Double" />
+    <altcode unicode="0x2568" groups="8" description="Box Drawings Up Double and Horizontal Single" />
+    <altcode unicode="0x2569" groups="8" description="Box Drawings Double Up and Horizontal" />
+    <altcode unicode="0x256a" groups="8" description="Box Drawings Vertical Single and Horizontal Double" />
+    <altcode unicode="0x256b" groups="8" description="Box Drawings Vertical Double and Horizontal Single" />
+    <altcode unicode="0x256c" groups="8" description="Box Drawings Double Vertical and Horizontal" />
+    <altcode unicode="0x2580" groups="8" description="Upper Half Block" />
+    <altcode unicode="0x2584" groups="8" description="Lower Half Block" />
+    <altcode unicode="0x2588" groups="8" description="Full Block" />
+    <altcode unicode="0x258c" groups="8" description="Left Half Block" />
+    <altcode unicode="0x2590" groups="8" description="Right Half Block" />
+    <altcode unicode="0x2591" groups="8" description="Light Shade" />
+    <altcode unicode="0x2592" groups="8" description="Medium Shade" />
+    <altcode unicode="0x2593" groups="8" description="Dark Shade" />
+    <altcode unicode="0x25a0" groups="8" description="Black Square" />
+    <altcode unicode="0x25aC" groups="5" description="Black Rectangle" />
+    <altcode unicode="0x25b2" groups="5" description="Black Up-Pointing Triangle" />
+    <altcode unicode="0x25ba" groups="5" description="Black Right-Pointing Pointer" />
+    <altcode unicode="0x25bc" groups="5" description="Black Down-Pointing Triangle" />
+    <altcode unicode="0x25c4" groups="5" description="Black Left-Pointing Pointer" />
+    <altcode unicode="0x25CB" groups="6" description="White Circle" />
+    <altcode unicode="0x25D8" groups="6" description="Inverse Bullet" />
+    <altcode unicode="0x25D9" groups="6" description="Inverse White Circle" />
+    <altcode unicode="0x263A" groups="6" description="White Smiling Face" />
+    <altcode unicode="0x263B" groups="6" description="Black Smiling Face" />
+    <altcode unicode="0x263C" groups="6" description="White Sun with Rays" />
+    <altcode unicode="0x2640" groups="6" description="Female Sign" />
+    <altcode unicode="0x2642" groups="6" description="Male Sign" />
+    <altcode unicode="0x2660" groups="6" description="Black Spade Suit" />
+    <altcode unicode="0x2663" groups="6" description="Black Club Suit" />
+    <altcode unicode="0x2665" groups="6" description="Black Heart Suit" />
+    <altcode unicode="0x2666" groups="6" description="Black Diamond Suit" />
+    <altcode unicode="0x266A" groups="6" description="Eighth Note" />
+    <altcode unicode="0x266B" groups="6" description="Beamed Eighth Notes" />
+  </altcodes>
+</altcodedata>

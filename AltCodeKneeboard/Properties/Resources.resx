@@ -46,7 +46,7 @@
     
     mimetype: application/x-microsoft.net.object.binary.base64
     value   : The object must be serialized with 
-            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
@@ -60,6 +60,7 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
@@ -68,9 +69,10 @@
               <xsd:sequence>
                 <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="name" use="required" type="xsd:string" />
               <xsd:attribute name="type" type="xsd:string" />
               <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
@@ -85,9 +87,10 @@
                 <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
                 <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
               <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
               <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
@@ -109,9 +112,379 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="appicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\appicon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Alt Code Kneeboard</value>
+  </data>
+  <data name="Configure" xml:space="preserve">
+    <value>Configure...</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="MinimizedToTray" xml:space="preserve">
+    <value>Alt Code Kneeboard has been minimized to the system tray...</value>
+  </data>
+  <data name="keyboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\keyboard.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\star.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Favorites" xml:space="preserve">
+    <value>Favorites</value>
+  </data>
+  <data name="Hotkeys" xml:space="preserve">
+    <value>Hotkeys</value>
+  </data>
+  <data name="Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Ctrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Win" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="PressKeyCombination" xml:space="preserve">
+    <value>Press a key combination...</value>
+  </data>
+  <data name="NotSet" xml:space="preserve">
+    <value>Not Set</value>
+  </data>
+  <data name="Hotkey_Momentary_Desc" xml:space="preserve">
+    <value>Show the kneeboard while the key combination is pressed.</value>
+  </data>
+  <data name="Hotkey_Momentary_Name" xml:space="preserve">
+    <value>Momentary</value>
+  </data>
+  <data name="Hotkey_Toggle_Desc" xml:space="preserve">
+    <value>Toggle the kneeboard when the key combination is pressed.</value>
+  </data>
+  <data name="Hotkey_Toggle_Name" xml:space="preserve">
+    <value>Toggle</value>
+  </data>
+  <data name="Appearance" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="palette" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\palette.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ErrorFailedToLoadAltCodes" xml:space="preserve">
+    <value>Failed to load alt codes: </value>
+  </data>
+  <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\close.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="placement" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\placement.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Dimensions" xml:space="preserve">
+    <value>Dimensions</value>
+  </data>
+  <data name="ShowCharMap" xml:space="preserve">
+    <value>Character Map...</value>
+  </data>
+  <data name="EditHeaderMargin" xml:space="preserve">
+    <value>Set header margin...</value>
+  </data>
+  <data name="EditTileMargin" xml:space="preserve">
+    <value>Set tile margin...</value>
+  </data>
+  <data name="EditTilePadding" xml:space="preserve">
+    <value>Set tile padding...</value>
+  </data>
+  <data name="AllSortedByDescription" xml:space="preserve">
+    <value>All - By Description</value>
+  </data>
+  <data name="AllSortedByUnicode" xml:space="preserve">
+    <value>All - By Unicode</value>
+  </data>
+  <data name="ToggleKneeboard" xml:space="preserve">
+    <value>Toggle Kneeboard</value>
+  </data>
+  <data name="open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\16\open.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\16\save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save_as" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\16\save_as.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\16\new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AreYouSure" xml:space="preserve">
+    <value>Are you sure?</value>
+  </data>
+  <data name="UnsavedChangesCss" xml:space="preserve">
+    <value>You have unsaved changes to this stylesheet. Would you like to save them?</value>
+  </data>
+  <data name="Category_Style_Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="Category_Style_Header" xml:space="preserve">
+    <value>Header</value>
+  </data>
+  <data name="Category_Style_Tile" xml:space="preserve">
+    <value>Tile</value>
+  </data>
+  <data name="PlacementMessage" xml:space="preserve">
+    <value>Click and drag to move or resize the kneeboard...</value>
+  </data>
+  <data name="ByAlpha" xml:space="preserve">
+    <value>Alphabetically</value>
+  </data>
+  <data name="ByFavoritesOnly" xml:space="preserve">
+    <value>Favorites Only</value>
+  </data>
+  <data name="ByGroup" xml:space="preserve">
+    <value>By Group</value>
+  </data>
+  <data name="ByUnicode" xml:space="preserve">
+    <value>By Unicode</value>
+  </data>
+  <data name="Category_Style_ScrollBar" xml:space="preserve">
+    <value>Scroll Bars</value>
+  </data>
+  <data name="DisplayName_Style_DefaultForeColor" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="DisplayName_Style_DefaultBackColor" xml:space="preserve">
+    <value>Background</value>
+  </data>
+  <data name="DisplayName_Style_DefaultFont" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="DisplayName_Style_DefaultAlignment" xml:space="preserve">
+    <value>Text Alignment</value>
+  </data>
+  <data name="DisplayName_Style_ScrollWidth" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="DisplayName_Style_ScrollbarForeColor" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="DisplayName_Style_HeaderForeColor" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="DisplayName_Style_HeaderBackColor" xml:space="preserve">
+    <value>Background</value>
+  </data>
+  <data name="DisplayName_Style_HeaderMargin" xml:space="preserve">
+    <value>Margin</value>
+  </data>
+  <data name="DisplayName_Style_HeaderPadding" xml:space="preserve">
+    <value>Padding</value>
+  </data>
+  <data name="DisplayName_Style_HeaderFont" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="DisplayName_Style_HeaderAlignment" xml:space="preserve">
+    <value>Text Alignment</value>
+  </data>
+  <data name="DisplayName_Style_HeaderDividerSize" xml:space="preserve">
+    <value>Divider Size</value>
+  </data>
+  <data name="DisplayName_Style_AltCodeForeColor" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="DisplayName_Style_AltCodeBackColor" xml:space="preserve">
+    <value>Background</value>
+  </data>
+  <data name="DisplayName_Style_AltCodeBorderColor" xml:space="preserve">
+    <value>Border Color</value>
+  </data>
+  <data name="DisplayName_Style_AltCodeHoverForeColor" xml:space="preserve">
+    <value>Hover Color</value>
+  </data>
+  <data name="DisplayName_Style_AltCodeHoverBackColor" xml:space="preserve">
+    <value>Hover Background</value>
+  </data>
+  <data name="DisplayName_Style_AltCodeHoverBorderColor" xml:space="preserve">
+    <value>Hover Border Color</value>
+  </data>
+  <data name="DisplayName_Style_AltCodeSize" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="DisplayName_Style_AltCodePadding" xml:space="preserve">
+    <value>Padding</value>
+  </data>
+  <data name="DisplayName_Style_AltCodeMargin" xml:space="preserve">
+    <value>Margin</value>
+  </data>
+  <data name="DisplayName_Style_AltCodeCollapseMargins" xml:space="preserve">
+    <value>Collapse Margins</value>
+  </data>
+  <data name="DisplayName_Style_AltCodeBorderSize" xml:space="preserve">
+    <value>Border Size</value>
+  </data>
+  <data name="DisplayName_BorderRadius_TopLeft" xml:space="preserve">
+    <value>Top Left</value>
+  </data>
+  <data name="DisplayName_BorderRadius_TopRight" xml:space="preserve">
+    <value>Top Right</value>
+  </data>
+  <data name="DisplayName_BorderRadius_BottomLeft" xml:space="preserve">
+    <value>Bottom Left</value>
+  </data>
+  <data name="DisplayName_BorderRadius_BottomRight" xml:space="preserve">
+    <value>Bottom Right</value>
+  </data>
+  <data name="DisplayName_Style_AltCodeCharFont" xml:space="preserve">
+    <value>Preview Font</value>
+  </data>
+  <data name="DisplayName_Style_AltCodeCharAlignment" xml:space="preserve">
+    <value>Preview Alignment</value>
+  </data>
+  <data name="DisplayName_Style_AltCodeCodeFont" xml:space="preserve">
+    <value>Alt Code Font</value>
+  </data>
+  <data name="DisplayName_Style_AltCodeCodeAlignment" xml:space="preserve">
+    <value>Alt Code Alignment</value>
+  </data>
+  <data name="Description_Style_DefaultForeColor" xml:space="preserve">
+    <value>Default color for foreground elements (text and other elements)</value>
+  </data>
+  <data name="Description_Style_DefaultBackColor" xml:space="preserve">
+    <value>Default background color</value>
+  </data>
+  <data name="Description_Style_DefaultFont" xml:space="preserve">
+    <value>Default font</value>
+  </data>
+  <data name="Description_Style_DefaultAlignment" xml:space="preserve">
+    <value>Default horizontal text alignment</value>
+  </data>
+  <data name="Description_Style_ScrollWidth" xml:space="preserve">
+    <value>Scrollbar width</value>
+  </data>
+  <data name="Description_Style_ScrollbarForeColor" xml:space="preserve">
+    <value>Scrollbar color</value>
+  </data>
+  <data name="Description_Style_HeaderForeColor" xml:space="preserve">
+    <value>Header text color</value>
+  </data>
+  <data name="Description_Style_HeaderBackColor" xml:space="preserve">
+    <value>Header background color</value>
+  </data>
+  <data name="Description_Style_HeaderMargin" xml:space="preserve">
+    <value>Header margin</value>
+  </data>
+  <data name="Description_Style_HeaderPadding" xml:space="preserve">
+    <value>Header padding</value>
+  </data>
+  <data name="Description_Style_HeaderFont" xml:space="preserve">
+    <value>Header text font</value>
+  </data>
+  <data name="Description_Style_HeaderAlignment" xml:space="preserve">
+    <value>Header text horizontal alignment</value>
+  </data>
+  <data name="Description_Style_HeaderDividerSize" xml:space="preserve">
+    <value>Header horizontal divider thickness</value>
+  </data>
+  <data name="Description_Style_AltCodeForeColor" xml:space="preserve">
+    <value>Normal text color</value>
+  </data>
+  <data name="Description_Style_AltCodeBackColor" xml:space="preserve">
+    <value>Tile background color</value>
+  </data>
+  <data name="Description_Style_AltCodeBorderColor" xml:space="preserve">
+    <value>Tile border color</value>
+  </data>
+  <data name="Description_Style_AltCodeHoverForeColor" xml:space="preserve">
+    <value>Text color when tile is hovered</value>
+  </data>
+  <data name="Description_Style_AltCodeHoverBackColor" xml:space="preserve">
+    <value>Background color when tile is hovered</value>
+  </data>
+  <data name="Description_Style_AltCodeHoverBorderColor" xml:space="preserve">
+    <value>Border color when tile is hovered</value>
+  </data>
+  <data name="Description_Style_AltCodeSize" xml:space="preserve">
+    <value>Tile size</value>
+  </data>
+  <data name="Description_Style_AltCodePadding" xml:space="preserve">
+    <value>Padding inside of tiles</value>
+  </data>
+  <data name="Description_Style_AltCodeMargin" xml:space="preserve">
+    <value>Margin between tiles</value>
+  </data>
+  <data name="Description_Style_AltCodeCollapseMargins" xml:space="preserve">
+    <value>Collapse margins between tiles</value>
+  </data>
+  <data name="Description_Style_AltCodeBorderSize" xml:space="preserve">
+    <value>Tile border thickness</value>
+  </data>
+  <data name="Description_BorderRadius_TopLeft" xml:space="preserve">
+    <value>Top left border radius</value>
+  </data>
+  <data name="Description_BorderRadius_TopRight" xml:space="preserve">
+    <value>Top right border radius</value>
+  </data>
+  <data name="Description_BorderRadius_BottomLeft" xml:space="preserve">
+    <value>Bottom left border radius</value>
+  </data>
+  <data name="Description_BorderRadius_BottomRight" xml:space="preserve">
+    <value>Bottom right border radius</value>
+  </data>
+  <data name="Description_Style_AltCodeCharFont" xml:space="preserve">
+    <value>Preview character font</value>
+  </data>
+  <data name="Description_Style_AltCodeCharAlignment" xml:space="preserve">
+    <value>Preview character horizontal alignment</value>
+  </data>
+  <data name="Description_Style_AltCodeCodeFont" xml:space="preserve">
+    <value>Alt Code font</value>
+  </data>
+  <data name="Description_Style_AltCodeCodeAlignment" xml:space="preserve">
+    <value>Alt Code horizontal alignment</value>
+  </data>
+  <data name="Description_BorderRadius_All" xml:space="preserve">
+    <value>Set all values</value>
+  </data>
+  <data name="Description_Style_AltCodeBorderRadius" xml:space="preserve">
+    <value>Tile border radius</value>
+  </data>
+  <data name="DisplayName_BorderRadius_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="DisplayName_Style_AltCodeBorderRadius" xml:space="preserve">
+    <value>Border Radius</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="FailedToParseBorderRadius" xml:space="preserve">
+    <value>Invalid Border Radius value. Enter four whole numbers separated by commas, such as: "0, 0, 0, 0".</value>
+  </data>
+  <data name="TransparencyBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\TransparencyBackground.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="category" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\16\category.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sort_asc_az" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\16\sort_asc_az.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clear_formatting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Icons\16\clear_formatting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

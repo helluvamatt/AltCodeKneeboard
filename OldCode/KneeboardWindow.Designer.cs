@@ -1,6 +1,6 @@
-﻿namespace AltCodeKneeboard
+﻿namespace AltCodeKneeboard.Kneeboard
 {
-    partial class Form1
+    partial class KneeboardWindow
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // KneeboardWindow
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "KneeboardWindow";
+            this.Opacity = 0.01D;
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.Text = "KneeboardWindow";
+            this.TopMost = true;
+            this.ResumeLayout(false);
+
         }
 
         #endregion
     }
 }
-

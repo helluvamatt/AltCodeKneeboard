@@ -8,22 +8,148 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AltCodeKneeboard.Properties
-{
-
-
+namespace AltCodeKneeboard.Properties {
+    
+    
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase
-    {
-
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.7.0.0")]
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
-
-        public static Settings Default
-        {
-            get
-            {
+        
+        public static Settings Default {
+            get {
                 return defaultInstance;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool MomentaryShowEnabled {
+            get {
+                return ((bool)(this["MomentaryShowEnabled"]));
+            }
+            set {
+                this["MomentaryShowEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public ulong MomentaryShowKeyCombo {
+            get {
+                return ((ulong)(this["MomentaryShowKeyCombo"]));
+            }
+            set {
+                this["MomentaryShowKeyCombo"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool ToggleShowEnabled {
+            get {
+                return ((bool)(this["ToggleShowEnabled"]));
+            }
+            set {
+                this["ToggleShowEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public ulong ToggleShowKeyCombo {
+            get {
+                return ((ulong)(this["ToggleShowKeyCombo"]));
+            }
+            set {
+                this["ToggleShowKeyCombo"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool HotkeysEnabled {
+            get {
+                return ((bool)(this["HotkeysEnabled"]));
+            }
+            set {
+                this["HotkeysEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public int[] Favorites {
+            get {
+                return ((int[])(this["Favorites"]));
+            }
+            set {
+                this["Favorites"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0, 0")]
+        public global::System.Drawing.Point StartPosition {
+            get {
+                return ((global::System.Drawing.Point)(this["StartPosition"]));
+            }
+            set {
+                this["StartPosition"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("300, 400")]
+        public global::System.Drawing.Size Size {
+            get {
+                return ((global::System.Drawing.Size)(this["Size"]));
+            }
+            set {
+                this["Size"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public int[] HiddenGroups {
+            get {
+                return ((int[])(this["HiddenGroups"]));
+            }
+            set {
+                this["HiddenGroups"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Default")]
+        public string StyleTheme {
+            get {
+                return ((string)(this["StyleTheme"]));
+            }
+            set {
+                this["StyleTheme"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Grouped")]
+        public global::AltCodeKneeboard.SortMode SortMode {
+            get {
+                return ((global::AltCodeKneeboard.SortMode)(this["SortMode"]));
+            }
+            set {
+                this["SortMode"] = value;
             }
         }
     }
